@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.chat-header {
+    background: #5a3e8d;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.chat-messages {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+.message {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.message.assistant {
+    align-items: flex-start;
+}
+.message.user {
+    align-items: flex-end;
+}
+.message span {
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 80%;
+}
+.message.assistant span {
+    background-color: #eef;
+    border-top-left-radius: 0;
+}
+.message.user span {
+    background-color: #d1c4e9;
+    color: #333;
+    border-top-right-radius: 0;
+}
+.chat-input-area {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+#send-btn {
+    padding: 10px 20px;
+    background: #5a3e8d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#recommendations-title {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f4f4f9;
+}
+.recommendations {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    background-color: #f4f4f9;
+}
+.product-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.product-card img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.product-card h4 {
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+    height: 40px;
+}
+.product-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.product-link {
+    text-decoration: none; 
+    color: inherit; 
+}
