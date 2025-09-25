@@ -1,3 +1,5 @@
+![status](https://img.shields.io/badge/status-em%20construção-yellow)
+
 # Decoreiro - Assistente de Decoração Virtual
 
 Este é o repositório do Assistente de Decoração Virtual da Decoreiro, um chatbot projetado para ajudar os clientes a encontrar os produtos de decoração perfeitos com base em suas preferências de estilo e cor. Utilizei esse projeto para aprimorar minhas habilidades em Python/API juntamente com frond-end. 
