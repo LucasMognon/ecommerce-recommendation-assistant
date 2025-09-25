@@ -30,7 +30,7 @@ Siga os passos abaixo para configurar e rodar o ambiente de desenvolvimento.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU_USUARIO/NOME_DO_SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_SEU_REPOSITORIO.git)
+    git clone [https://github.com/LucasMognon/ecommerce-recommendation-assistant](https://github.com/LucasMognon/ecommerce-recommendation-assistant)
     cd NOME_DO_SEU_REPOSITORIO
     ```
 
