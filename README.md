@@ -29,8 +29,8 @@ Siga os passos abaixo para configurar e rodar o ambiente de desenvolvimento.
 
 ### Pré-requisitos
 
-* Python 3.x instalado
-* Git instalado
+* Python 3
+* Git
 
 ### Passos
 
