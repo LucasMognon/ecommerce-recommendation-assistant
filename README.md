@@ -1,4 +1,5 @@
-![status](https://img.shields.io/badge/status-em%20construção-yellow)
+## Status do Projeto
+🚧 Em construção 🚧  
 
 # Decoreiro - Assistente de Decoração Virtual
 
